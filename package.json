@@ -1,5 +1,5 @@
 {
-  "name": "react-custom-hooks",
+  "name": "@threequartersjohn/react-custom-hooks",
   "version": "1.0.0",
   "description": "Custom React hooks",
   "author": "João Silva <threequartersjohn@gmail.com>",
@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d lib --delete-dir-on-start",
-    "build": "npm run build:commonjs",
+    "build:es": "cross-env BABEL_ENV=es babel src -d es --delete-dir-on-start",
+    "build": "npm run build:commonjs && npm run build:es",
     "test": "test"
   },
   "keywords": [
