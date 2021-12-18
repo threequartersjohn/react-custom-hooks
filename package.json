@@ -1,6 +1,6 @@
 {
   "name": "react-custom-hooks",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Custom React hooks",
   "author": "João Silva <threequartersjohn@gmail.com>",
   "main": "src/index.js",
@@ -13,7 +13,7 @@
     "hooks"
   ],
   "peerDependencies": {
-      "react": "^16.8.0  || ^17.0.0",
-      "react-dom": "^16.8.0  || ^17.0.0"
-  },
+    "react": "^16.8.0  || ^17.0.0",
+    "react-dom": "^16.8.0  || ^17.0.0"
+  }
 }
