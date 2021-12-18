@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Custom React hooks",
   "author": "João Silva <threequartersjohn@gmail.com>",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
+    "build:commonjs": "cross-env BABEL_ENV=commonjs babel src -d lib --delete-dir-on-start",
+    "build": "npm run build:commonjs",
     "test": "test"
   },
   "keywords": [
@@ -15,5 +17,11 @@
   "peerDependencies": {
     "react": "^16.8.0  || ^17.0.0",
     "react-dom": "^16.8.0  || ^17.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@moxy/babel-preset": "^3.2.1",
+    "cross-env": "^7.0.2"
   }
 }
