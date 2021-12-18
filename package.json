@@ -1,6 +1,6 @@
 {
   "name": "@threequartersjohn/react-custom-hooks",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Custom React hooks",
   "author": "João Silva <threequartersjohn@gmail.com>",
   "main": "lib/index.js",
