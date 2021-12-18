@@ -1,0 +1,19 @@
+{
+  "name": "react-custom-hooks",
+  "version": "0.0.0",
+  "description": "Custom React hooks",
+  "author": "João Silva <threequartersjohn@gmail.com>",
+  "main": "src/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "peerDependencies": {
+      "react": "^16.8.0  || ^17.0.0",
+      "react-dom": "^16.8.0  || ^17.0.0"
+  },
+}
