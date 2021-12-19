@@ -6,7 +6,7 @@ const keyboardEvents = [
     'keypress',
 ]
 
-export const useKeyboardEvent = (keys, callback, { event = 'keydown' }) => {
+export const useKeyboardEvent = (keys, callback, { event = 'keydown' } = {}) => {
     if (!keyboardEvents.includes(event)) {
         throw Error('Non keyboard related event requested. Please use one of `keyup`, `keydown` or `keypress`.');
     }

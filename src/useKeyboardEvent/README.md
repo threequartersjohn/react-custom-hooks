@@ -13,6 +13,7 @@ useKeyboardEvent(
     })
 ```
 
+#### Example
 ```js
 import { useState } from 'react';
 
