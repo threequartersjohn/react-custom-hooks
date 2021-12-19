@@ -1,6 +1,8 @@
 ## useKeyboardEvent
 
-React hook to register keyboard events. 
+React hook to register keyboard events.
+
+This hook is useful to hide away event addition and removalm, and to add semantic context to your event registering.
 
 ### Usage
 
