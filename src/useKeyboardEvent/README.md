@@ -2,7 +2,7 @@
 
 React hook to register keyboard events.
 
-This hook is useful to hide away event addition and removalm, and to add semantic context to your event registering.
+This hook is useful to hide away event addition and removal, and to add semantic context to your event registering.
 
 ### Usage
 
